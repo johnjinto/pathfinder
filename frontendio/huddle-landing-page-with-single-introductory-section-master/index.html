@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    body{
+
+      background: url("./images/bg-desktop.svg");
+      background-color: indigo;
+      margin: 5%;
+      color: whitesmoke;
+
+    }
+
+    article{
+
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+      grid-gap: 5%;
+
+    }
+
+    header>img{
+     max-width: 25vw;
+     min-width: 150px;
+     margin-bottom: 20px;
+
+    }
+
+    section>img{
+
+      max-width: 100%;
+    }
+
+    button{
+
+      border-radius: 12px;
+      background-color: #e7e7e7; color: indigo;
+    }
+  </style>
+
+</head>
+
+
+<body>
+  <header>
+<img src="./images/logo.svg"/>
+  <header>
+<article>
+  <section>
+
+  <img src="./images/illustration-mockups.svg" alt="demo image of huddle page">
+
+  </section>
+  <section>
+  <h3>Build The Community Your Fans Will Love</h3>
+
+  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion. 
+<button>
+Register</button>
+</section>
+</article>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
